@@ -15,7 +15,17 @@ orb = {
     for (let property in language) {
         if (document.querySelector('[orb="'+property+'"]')) {
             let orbSelector = document.querySelector('[orb="'+property+'"]');
-            orbSelector.innerHTML = language[property];
+
+            if (typeof(language[property]) === 'object') {
+                let object = language[property];
+
+                for (let field in object) {
+                      orbSelector[field] = object[field];
+                }
+            }
+            else {
+                orbSelector.innerHTML = language[property];
+            }
         }
     }
     localStorage.setItem("orb-language", language._language);
