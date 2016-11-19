@@ -4,20 +4,25 @@
     <meta charset="utf-8">
     <title>ORB</title>
     <style>
-    body {font-family: sans-serif;}
-    span {display: block;}
+      body {font-family: sans-serif;}
+      span {display: block;}
     </style>
   </head>
   <body>
     <section>
-      <h1>Welcome to ORB</h1>
-      <span>Your friendly JavaScript handler for multi language projects.</span>
-      <span>You can select one of these languages below to see ORB in action.</span>
+      <h1 orb="welcome">Welcome to ORB</h1>
+      <span orb="subtitle">Your friendly JavaScript handler for multi language projects.</span>
+      <span orb="instruction">You can select one of these languages below to see ORB in action.</span>
       <ul>
-        <li><a href="#">English</a></li>
-        <li><a href="#">Brazilian Portuguese</a></li>
-        <li><a href="#">Spanish</a></li>
+        <li><a href="#" orb="english" onclick="orb.translateTo(english);">English</a></li>
+        <li><a href="#" orb="pt_br" onclick="orb.translateTo(pt_br);">Brazilian Portuguese</a></li>
+        <li><a href="#" orb="spanish" onclick="orb.translateTo(spanish);">Spanish</a></li>
       </ul>
     </section>
+
+    <script src="src/languages/pt-br.js"></script>
+    <script src="src/languages/english.js"></script>
+    <script src="src/languages/spanish.js"></script>
+    <script src="src/orb.js"></script>
   </body>
 </html>
