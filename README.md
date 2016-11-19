@@ -81,7 +81,7 @@ inputName: {placeholder: 'Type your name', title: 'Click and type your name.'}
 ```
 # Recommendations
 
-For the ORB can be work fine to identify and load automatically the language available based on the user browser language in their first access you need to respect the **ISO language code table** when you give the name to your **language object** and **_language** parameter. You can check the table [here](http://www.lingoes.net/en/translator/langcode.htm).
+For the ORB can be work fine to identify and load automatically the language available based on the user browser language in their first access you need to respect the **ISO language code table** when you give the name to your **language object** and **_language** property. You can check the table [here](http://www.lingoes.net/en/translator/langcode.htm).
 
 Select the language code as you want, replace the **- (hyphen)** to **_ (underscore)** and put it in lowercase.
 
