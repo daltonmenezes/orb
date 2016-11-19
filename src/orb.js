@@ -16,7 +16,7 @@ orb = {
         if (this._isAnExistingPropertyInDOM(property)) {
             let orbSelector = document.querySelector('[orb="'+property+'"]');
 
-            if (typeof(language[property]) === 'object') {
+            if (this._hasAnObjectInProperty(language[property])) {
                 let object = language[property];
 
                 for (let field in object) {
@@ -33,6 +33,10 @@ orb = {
 
   _isAnExistingPropertyInDOM: function (property) {
     return document.querySelector('[orb="'+property+'"]') ? true : false;
+  },
+
+  _hasAnObjectInProperty: function (property) {
+    return typeof(property) === 'object';
   }
 };
 
