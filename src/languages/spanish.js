@@ -1,5 +1,5 @@
-spanish = {
-  _language: 'spanish',
+es = {
+  _language: 'es',
   welcome: 'Bienvenido al ORB',
   subtitle: 'Su manejador de lenguaje JavaScript amigable para proyectos multilingües.',
   instruction: 'Puedes seleccionar uno de los idiomas abajo para ver el ORB en acción.',
