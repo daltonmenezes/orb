@@ -62,3 +62,21 @@ Back to the HTML file and insert before the body closed tag (**`</body>`**) your
 <script src="src/orb.js"></script>
 ```
 It's done!
+
+# Translating multiple parameters in a tag
+
+The syntax is **{ html parameter name: 'value' }**. So, put more parameters with values together and separating these by commas from the others.
+
+## Example
+
+Putting a text and a title **(caption)** in a button:
+```js
+button: {text: 'English', title: 'Switch to English'}
+```
+Putting a placeholder and a title in a input text:
+```js
+inputName: {placeholder: 'Type your name', title: 'Click and type your name.'}
+```
+
+
+
