@@ -5,6 +5,10 @@ orb = {
     if (language) {
         this.translateTo(window[language]);
     }
+    else {
+        let browser_language = navigator.language.replace('-', '_');
+        this.translateTo(window[browser_language.toLowerCase()]);
+    }
   },
 
   translateTo: function (language) {
