@@ -11,9 +11,9 @@ Your friendly JavaScript language handler for multi language projects.
 
 [See ORB in action](https://daltonmenezes.github.io/orb/example.html)
 
-### Functions
+# Functions
 
-**translateTo**
+###translateTo
 
 Translates the page to given object language.
 
@@ -26,7 +26,7 @@ orb.translateTo(Object language);
 orb.translateTo(pt_br);
 ```
 
-### Usage
+# Usage
 Add **orb=""** parameter in all tags you want to support and give any names like an ID.
 ```html
 <h1 orb="welcome">Welcome to ORB</h1>
