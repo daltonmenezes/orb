@@ -13,7 +13,7 @@ orb = {
 
   translateTo: function (language) {
     for (let property in language) {
-        if (document.querySelector('[orb="'+property+'"]')) {
+        if (this._isAnExistingPropertyInDOM(property)) {
             let orbSelector = document.querySelector('[orb="'+property+'"]');
 
             if (typeof(language[property]) === 'object') {
@@ -29,6 +29,10 @@ orb = {
         }
     }
     localStorage.setItem("orb-language", language._language);
+  },
+
+  _isAnExistingPropertyInDOM: function (property) {
+    return document.querySelector('[orb="'+property+'"]') ? true : false;
   }
 };
 
