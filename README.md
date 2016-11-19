@@ -1,7 +1,7 @@
 # ORB :globe_with_meridians:
 Your friendly JavaScript language handler for multi language projects.
 
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/daltonmenezes/pepper-the-chicken/blob/master/LICENSE)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/daltonmenezes/orb/blob/master/LICENSE)
 
 ###What's the advantage?
 
