@@ -67,15 +67,15 @@ It's done!
 
 # Translating multiple parameters in a tag
 
-The syntax is **{ html parameter name: 'value' }**. So, put more parameters with values together separating these by commas from the others.
+The syntax is **{ html parameter name: 'value' }**. So, put more parameters with values together separating these by commas from the others in your **language object**.
 
 ## Example
 
-Putting a text and a title **(caption)** in a button:
+Putting a text and a title **(caption)** in a property named button:
 ```js
 button: {text: 'English', title: 'Switch to English'}
 ```
-Putting a placeholder and a title in a input text:
+Putting a placeholder and a title in a property named inputName:
 ```js
 inputName: {placeholder: 'Type your name', title: 'Click and type your name.'}
 ```
