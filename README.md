@@ -1,5 +1,5 @@
 # ORB :globe_with_meridians:
-Your friendly JavaScript language handler for multi language projects.
+Your friendly JavaScript languages handler. ORB turns fastly and easily your website/project to multilingual.
 
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/daltonmenezes/orb/blob/master/LICENSE)
 
