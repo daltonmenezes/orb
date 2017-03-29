@@ -3,7 +3,7 @@ Your friendly JavaScript languages handler. ORB turns fastly and easily your web
 
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/daltonmenezes/orb/blob/master/LICENSE)
 
-###What's the advantage?
+### What's the advantage?
 
 - No dependecies
 - Simple to use
@@ -15,7 +15,7 @@ Your friendly JavaScript languages handler. ORB turns fastly and easily your web
 
 # Functions
 
-###translateTo
+### translateTo
 
 Translates the page to given object language.
 
