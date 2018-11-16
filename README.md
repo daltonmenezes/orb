@@ -1,6 +1,7 @@
 # ORB :globe_with_meridians:
 Your friendly JavaScript languages handler. ORB turns fastly and easily your website/project to multilingual.
 
+<a href="https://www.patreon.com/daltonmenezes"><img src="https://img.shields.io/badge/become%20a-patron%20or%20sponsor-orange.svg" alt="become a patron or sponsor" /></a>  
 <a href="https://paypal.me/daltonmenezes"><img src="https://img.shields.io/badge/donate-green.svg" alt="donate" /></a>
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/daltonmenezes/orb/blob/master/LICENSE)
 
